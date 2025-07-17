@@ -641,12 +641,12 @@ app.get("/api/instruments", async (req, res) => {
     
     // Return fallback instruments if API fails
     const fallbackInstruments = [
-      { instrument: 'USDT-INR', active: true, enabled: true },
-      { instrument: 'USDT-USD', active: true, enabled: true },
-      { instrument: 'USDT-EUR', active: true, enabled: true },
-      { instrument: 'USDT-GBP', active: true, enabled: true },
-      { instrument: 'USDT-CAD', active: true, enabled: true },
-      { instrument: 'USDT-AUD', active: true, enabled: true }
+      { instrument: 'USDT.INR', active: true, enabled: true },
+      { instrument: 'USDT.USD', active: true, enabled: true },
+      { instrument: 'USDT.EUR', active: true, enabled: true },
+      { instrument: 'USDT.GBP', active: true, enabled: true },
+      { instrument: 'USDT.CAD', active: true, enabled: true },
+      { instrument: 'USDT.AUD', active: true, enabled: true }
     ];
     
     res.json({
@@ -945,12 +945,12 @@ app.get("/api/instruments", async (req, res) => {
     
     // Return fallback instruments if API fails
     const fallbackInstruments = [
-      { instrument: 'USDT-INR', active: true, enabled: true },
-      { instrument: 'USDT-USD', active: true, enabled: true },
-      { instrument: 'USDT-EUR', active: true, enabled: true },
-      { instrument: 'USDT-GBP', active: true, enabled: true },
-      { instrument: 'USDT-CAD', active: true, enabled: true },
-      { instrument: 'USDT-AUD', active: true, enabled: true }
+      { instrument: 'USDT.INR', active: true, enabled: true },
+      { instrument: 'USDT.USD', active: true, enabled: true },
+      { instrument: 'USDT.EUR', active: true, enabled: true },
+      { instrument: 'USDT.GBP', active: true, enabled: true },
+      { instrument: 'USDT.CAD', active: true, enabled: true },
+      { instrument: 'USDT.AUD', active: true, enabled: true }
     ];
     
     res.json({
